@@ -27,63 +27,10 @@
 
 		<!-- Main -->
 			<div id="main">
+				<section id="inpage">
+					<iframe src="inpage.html" width="100%" height="600" id="frameDemo"></iframe>
+				</section>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>Biography</h2>
-						</header>
-						<p>As of 2017, I am an Ph.D. candidate at KU Leuven, Belgium. I am affiliated to the Stadius Center for Dynamical Systems, Signal Processing, and Data Analytics (STADIUS) as well as to the e-Media Research Lab of the Department of Electrical Engineering (ESAT).<br />
-							In 2016, I graduated as a Master in Artificial Intelligence at KU Leuven, after which I spent a year as a researcher for a project called "m-Sense" hosted in the KU Leuven e-Media Research Lab. One year later, in 2017, I started a PhD research project on designing of deep learning algorithms for the acquisition and data-driven modeling of smartphone sensor data, with a particular focus on detecting user emotions and predicting mood disorders.
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</section>
-
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<inpage>
-							Hello <a href="https://johnresig.com/">John</a>, how are you doing?
-							<iframe src="biography.html" width="80%" height="600" id="frameDemo"></iframe>
-						</inpage>
-
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
-					</section>
 
 				<!-- Three -->
 					<section id="three">
@@ -463,14 +410,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-			$( "inpage" )
-			  .contents()
-			  .filter(function(){
-				return this.nodeType !== 1;
-			  })
-			  .wrap( "<b></b>" );
-			</script>
 
 	</body>
 </html>
