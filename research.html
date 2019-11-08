@@ -9,7 +9,7 @@
 	<body class="is-preload">
 		<!-- Two -->
 		<section id="two">
-			<a href="research.html" target="_parent"><header class="major"><h2>Research</h2></header></a>
+			<a onclick="scrollUp()" href="research.html" target="_parent"><header class="major"><h2>Research</h2></header></a>
 			<div class="row">
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="researches/waspaa2019_SCE.html" target="_parent" class="image fit thumb"><img src="images/thumbs/waspaa2019_SCE.png" alt="" /></a>
@@ -19,7 +19,7 @@
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="researches/icassp2020.html" target="_parent" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-					<h3>Adieu Recurrence? End-to-end Speech Emotion Recognition Using a Context Stacked Dilated Convolutional Network</h3>
+					<h3>Coming Soon</h3>
 					<h6>Submitted to ICASSP 2020, Barcelona, Spain</h6>
 					<p>Duowei Tang, Peter Kuppens, Luc Geurts, Toon van Waterschoot</p>
 				</article>
@@ -27,10 +27,22 @@
 		</section>
 
 		<!-- Scripts! -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
 		<script>
 		function goBack() {
 		  window.history.back()
 		}
 		</script>
+		<script>
+		function scrollUp() {
+			window.scrollTo(0, 0);
+		}
+		</script>
+		<script>
+		$(document).ready(function(){
+			$(this).scrollTop(0);
+		});
+	</script>
 	</body>
 </html>
