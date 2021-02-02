@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>End-to-end speech emotion recognition using a novel context-stacking dilated convolution neural network</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<!-- One -->
+		<section id="one">
+			<h1>End-to-end speech emotion recognition using a novel context-stacking dilated convolution neural network</h1>
+			<h3>Duowei Tang, Peter Kuppens, Luc Geurts, Toon van Waterschoot</h3>
+			<h6>Submitted to EURASIP</h6>
+<!--			<ul class="actions">-->
+<!--				<li><a href="" target="_blank" class="button icon solid small fa-download">PDF</a></li>-->
+<!--			</ul>-->
+			<br />
+			<h2>Abstract</h2>
+			<p>Amongst the various characteristics of a speech signal, the expression of emotion is one of the characteristics
+that exhibits the slowest temporal dynamics. Hence, a performant Speech Emotion Recognition (SER) system
+requires a predictive model that is capable of learning suciently long temporal dependencies in the analysed
+speech signal. Therefore, in this work, we propose a novel end-to-end neural network architecture based on the
+concept of dilated causal convolution with context stacking. Firstly, the proposed model consists only of
+parallelisable layers and is hence suitable for parallel processing, while avoiding the inherent lack of
+parallelisability occurring with Recurrent Neural Network (RNN) layers. Secondly, the design of a dedicated
+dilated causal convolution block allows the model to have a receptive eld as large as the input sequence
+length, while maintaining a reasonably low computational cost. Thirdly, by introducing a context stacking
+structure, the proposed model is capable of exploiting long-term temporal dependencies hence providing an
+alternative to the use of RNN layers. We evaluate the proposed model in SER regression and classication tasks
+and provide a comparison with a state-of-the-art end-to-end SER model. Experimental results indicate that the
+proposed model requires only 1/3 of the number of model parameters used in the state-of-the-art model, while
+also signicantly improving SER performance. Further experiments are reported to understand the impact of
+using various types of input representations (i.e., raw audio samples vs log mel-spectrograms) and to illustrate
+the benets of an end-to-end approach over the use of hand-crafted audio features. Moreover, we show that
+the proposed model can eciently learn intermediate embeddings preserving speech emotion information.</p>
+			<ul class="actions">
+				<li><a class="button" onclick="goBack()">Back</a></li>
+			</ul>
+		</section>
+
+		<script>
+		function goBack() {
+		  window.history.back()
+		}
+		</script>
+	</body>
+</html>
